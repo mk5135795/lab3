@@ -24,7 +24,7 @@ Slav::Slav()
 	//wciaz mozna sie do niej odwolac tylko w obrebie bloku w ktorym zostala zadeklarowana.
 	//najpierw wywoływana jest funkcja modyfikująca zmienna name,
 	//a nastepnie zmiennej przypisywana jest wartosc name.size()
-	//tzw leniwa inicjalizacja
+	//tzw leniwa inicjalizacja, funkcja jest wywolywana wtedy kiedy jest potrzebna
 	//jako ze zmienna jest statyczna cala definicja wykonywana jest tylko raz,
 	//wiec dzieki polaczeniu funkcji operatorem(), obydwie sa wykonywane tylko raz
 	//obydwie sa ze soba powiazane i nie ma potrzeby wywolywac i przypisywac ich wielokrotnie
